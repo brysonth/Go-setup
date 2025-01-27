@@ -1,0 +1,16 @@
+{
+    "name": "Go Dev",
+    "image": "mcr.microsoft.com/devcontainers/go:latest",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:1": {}
+    },
+    "postCreateCommand": "go version", 
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": [
+                "ms-go.go"
+            ]
+        }
+    }
+}
